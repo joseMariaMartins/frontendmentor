@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap">
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    body {
+      background-color: hsl(47, 88%, 63%);
+      font-family: 'Figtree', sans-serif;
+    }
+    .card {
+      background-color: white;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 15px;
+      border: 1px solid black;
+      box-shadow: 10px 10px 0px black;
+      padding: 25px;
+      border-radius: 15px;
+      height: 480px;
+      width: 330px;
+      align-items: center;
+    }
+    .card-img {
+      border-radius: 15px;
+      width: 330px;
+    }
+    .tag {
+      background-color: hsl(47, 88%, 63%);
+      border-radius: 4px;
+      padding: 3.5px;
+      font-size: 15px;
+      font-weight: 1000;
+      width: 100px;
+      text-align: center;
+    }
+    .date {
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .title {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: bolder;
+      max-width: 300px
+    }  
+    .footer {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bolder;
+      width: 100%; 
+      padding-top: 20px;
+    }
+    .author-img {
+      width: 40px;
+      height: 40px; 
+    }
+  </style>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="assets/images/illustration-article.svg" alt="" class="card-img">
+    <h2 class="tag">Learning</h2>
+    <h3 class="date">Published 21 Dec 2023</h3>
+    <a href="" class="title">HTML & CSS foundations</a>
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div class="footer">
+        <img src="assets/images/image-avatar.webp" alt="greg-author" class="author-img">
+        <h3 class="author">Greg Hooper</h3>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>
+  </div>
+</body>
+</html>
